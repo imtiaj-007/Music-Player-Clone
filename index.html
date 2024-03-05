@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest"> -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="about" class="about-section">
+        <div class="box">
+            <img id="infoClose" class="info-close" src="/images/close-button.svg" alt="close-button">
+            <div class="info">
+                <div class="about-me">
+
+                    <h1>About Me: </h1>
+                    <p>
+                        Hello and thank you for visiting my music streaming platform Music Player! <br>
+                        I'm SK IMTIAJ UDDIN, pre-final year undergraduate student, currently pursuing B.Tech in Information Technology, from Budge
+                        Budge Institute of Technology, Kolkata. <br>
+                        I'm showcasing my skills in Web Development by creating this platform for learning and
+                        demonstration purpose only. Dive into the features, enjoy the simulated music experience, and
+                        feel free to navigate through the various sections.
+                    </p>
+
+                </div>
+                <div class="disclaimer">
+
+                    <h1>Disclaimer :</h1>
+                    <p>
+                        This platform has been developed solely for educational purposes to showcase web development
+                        skills and technologies. I want to emphasize that this site is not intended for commercial use,
+                        and it does not aim to infringe upon any copyright or intellectual property rights.
+                    <ul>
+                        <li>
+                            All songs and album images on this platform are placeholders, generated or utilized strictly
+                            for educational demonstrations.
+                        </li>
+                        <li>
+                            The project adheres to the principles of fair use, incorporating copyrighted material in a
+                            manner consistent with educational objectives, commentary, and research.
+                        </li>
+                        <li>
+                            This project is not affiliated with any official music streaming service. It does not grant
+                            access to the library or its features.
+                        </li>
+                        <li>
+                            Users are expected to engage with the platform responsibly and within the educational
+                            context provided.
+                        </li>
+                    </ul>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="left-panel">
+
+            <div class="logo">
+                <li>
+                    <img src="/images/logo.svg" alt="Logo" />
+                    <span>Music Player</span>
+                </li>
+                <img class="close-button" src="/images/close-button.svg" alt="close-button">
+            </div>
+
+            <div class="library">
+
+                <div class="library-heading">
+                    <img src="/images/music-library.svg" alt="Library" />
+                    <p class="p-1">Music Library</p>
+                </div>
+
+                <div class="playlist">
+                    <ul>
+                        <!-- <li>
+                                <img class="playlist-icon" src="/images/playlist-icon.svg" alt="playlist-icon">
+                                <div class="music-info">
+                                    <div class="song-name">Song Name</div>
+                                    <div class="artist-name">Artist Name</div>
+                                </div>
+                                <img class="playlist-play-button" src="/images/playlist-play-button.svg" alt="play-button">
+                            </li> -->
+                    </ul>
+                </div>
+
+                <div class="footer">
+                    <ul>
+                        <li>Legal</li>
+                        <li>Copyright</li>
+                        <li>Author</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right-panel">
+
+            <div class="header">
+                <img class="menu" src="/images/menu.svg" alt="Menu">
+                <div class="button">
+                    <button class="signup">Sign Up</button>
+                    <button class="login">Log in</button>
+                </div>
+            </div>
+
+            <div class="album-list">
+                <p>Popular Music Albums</p>
+                <div class="card-container">
+
+                    <!-- <div class="cards">
+                        <div class="green-play">
+                            <img src="/images/green-play-button.svg" alt="green-play-button">
+                        </div>
+                        <img src="https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="cover-1">
+                        <h1>Chill Vibes</h1>
+                    </div> -->
+
+                </div>
+            </div>
+
+            <div class="playbar">
+
+                <div class="seekbar">
+                    <div class="line-bar"></div>
+                    <div class="seekbar-circle">
+                        <img src="/images/seekbar-circle.svg" alt="seekbar-circle">
+                    </div>
+                </div>
+
+                <div class="control-section">
+                    <div class="track-name">Audio.mp3</div>
+                    <div class="partition">
+
+                        <div class="play-buttons">
+                            <img id="prevbtn" src="/images/previous-button.svg" alt="Previous">
+                            <img id="playbtn" src="/images/play-button.svg" alt="Play">
+                            <!-- <img id="pausebtn" src="/images/pause-button.svg" alt="Pause"> -->
+                            <img id="nextbtn" src="/images/next-button.svg" alt="Next">
+                        </div>
+                        <div class="volume">
+                            <img id="volume" src="/images/volume.svg" alt="volume">
+                            <div class="range">
+                                <input type="range" name="vol-range" id="volRange" value="100">
+                            </div>
+                        </div>
+                        <div class="duration">00:00 / 00:00</div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
